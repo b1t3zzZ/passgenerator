@@ -1,0 +1,90 @@
+body{
+    background-color: rgb(241, 247, 253);
+    margin: 0px;
+}
+.base{
+    display: flex;
+    justify-content: center;
+    padding: 200px;
+    padding-left:65px;
+}
+.border{
+    border: 2px black solid;
+    border-radius: 7px;
+    box-shadow: 51px 51px 1.5px rgb(71, 66, 66);
+}
+
+h1{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    cursor: default;
+}
+.maininp{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    padding: 5px 55px;
+    border: none;
+    cursor: default;
+    pointer-events: none;
+}
+.add{
+    background-color: rgba(255, 181, 181, 0.616);
+    border-radius: 25px;
+    border:1px solid black;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.add:hover{
+    box-shadow: 1px 1px 1px black;
+    transform: translate(1px, 1px, );
+}
+.add:active{
+    transform: translateY(1px);
+    background-color:rgb(255, 219, 219);
+}
+
+.roulet{
+    margin-left: 120px;
+    
+}
+.zero{
+    width: 35px;
+    margin-left:163px;
+    padding: 4px;
+}
+.generate{
+    margin: 50px 130px;
+    padding: 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: #026acc;
+    color: white;
+    box-shadow: 0 9px #999;
+    cursor: pointer;
+}
+.generate:hover{
+    background-color: #3e5a8e
+}
+.generate:active{
+    background-color: #3e4a8e;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.image{
+    position: relative;
+    top: -74px;
+    left: 345px;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/126/126498.png");
+    width: 22px;
+    height: 22px;
+    background-size: cover;
+    border: none;
+    cursor: pointer;
+}
+.image:active{
+    transform: translateY(1px);
+}

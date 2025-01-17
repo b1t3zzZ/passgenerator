@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generator of password</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="base">
+        <div class="main">
+            <div class="border">
+                <h1>Generator of password</h1>
+                <input class="maininp" type="text" id="password" placeholder="Your password may be here" style="display: block;" readonly >
+                <button class="image" id="cope" ></button>
+                <button class="add" id="addsymb" >Add symbols</button>
+                <button class="add" id="addnumb" >Add numbers</button>
+                <input min="1" max="20" value="1" class="roulet" style="display: block;" type="range" id="priceRange">
+                <input id="priceValue" class="zero" placeholder="1-20"></input>
+                <button class="generate" id="generatePassword" style="display: block;">Generate</button>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
